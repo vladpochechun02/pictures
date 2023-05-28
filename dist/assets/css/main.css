@@ -36,6 +36,7 @@ html {
 }
 body {
   font-family: 'Circe Regular', sans-serif;
+  
 }
 p {
   margin: 0;
@@ -208,6 +209,7 @@ h4 {
 .main {
   background-color: #f7e7e6;
   padding-top: 3rem;
+  overflow: hidden;
   /* Making it beautiful */
 
 }
@@ -836,6 +838,7 @@ h4 {
 .feedback {
   background-color: #f7e7e6;
   padding: 9rem 0;
+  overflow: hidden;
 }
 .feedback-slider-item {
   padding-bottom: 5rem;

@@ -14,13 +14,13 @@ const modals = () => {
             item.addEventListener('click', (e) => {
                 if (e.target) {
                     e.preventDefault();
-                }
+                };
 
                 btnPressed = true;
 
                 if (destroy) {
                     item.remove();
-                }
+                };
 
                 windows.forEach(item => {
                     item.style.display = 'none';
