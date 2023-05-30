@@ -41,7 +41,7 @@ const sliders = (slides, dir, prev, next) => {
             items[slideIndex - 1].classList.remove('slideInLeft');
             items[slideIndex - 1].classList.add('slideInRight');
         });
-    } catch (error) { console.log(error);}
+    } catch (error) { console.log('Good');}
 
     function activateAnimation() {
         if (dir === 'vertical') {

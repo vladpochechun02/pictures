@@ -174,7 +174,7 @@ const sliders = (slides, dir, prev, next) => {
       items[slideIndex - 1].classList.add('slideInRight');
     });
   } catch (error) {
-    console.log(error);
+    console.log('Good');
   }
   function activateAnimation() {
     if (dir === 'vertical') {
@@ -273,7 +273,7 @@ window.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
   (0,_modules_modals__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  (0,_modules_sliders__WEBPACK_IMPORTED_MODULE_1__["default"])('.feedback-slider-item', '', '.main-prev-btn', '.main-next-btn');
+  (0,_modules_sliders__WEBPACK_IMPORTED_MODULE_1__["default"])('.feedback-slider-item', 'horizontal', '.main-prev-btn', '.main-next-btn');
   (0,_modules_sliders__WEBPACK_IMPORTED_MODULE_1__["default"])('.main-slider-item', 'vertical');
 });
 })();

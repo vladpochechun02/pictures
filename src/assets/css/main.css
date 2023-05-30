@@ -492,6 +492,7 @@ h4 {
 }
 .calc {
   padding: 8rem 0 4rem 0;
+  overflow: hidden;
   /* Making it beautiful */
 
 }
@@ -1033,6 +1034,7 @@ h4 {
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
+  overflow: hidden;
 }
 .popup-consultation .form input,
 .popup-consultation .form textarea {
@@ -1081,6 +1083,7 @@ h4 {
   border-radius: 4px;
   transform: translateX(-50%) !important;
   padding: 4rem 6rem 5rem 6rem;
+  /* overflow: hidden; */
 }
 .popup-gift {
   z-index: 20;
@@ -1261,6 +1264,11 @@ h4 {
   transform: translateX(-50%) !important;
   padding: 3rem 6rem 4rem 6rem;
 }
+
+.status {
+  text-align: center;
+}
+
 @media (max-width: 1399px) {
   .paints {
     display: none;
