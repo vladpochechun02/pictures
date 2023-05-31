@@ -1,14 +1,13 @@
-//Отправка данных на сервер. async and await обязательно, для крректной работы
 const postData = async (url, data) => {
     let res = await fetch(url, {
-        method: 'POST',
+        method: "POST",
         body: data
     });
 
     return await res.text();
 };
 
-const getResourse = async (url) => {
+const getResource = async (url) => {
     let res = await fetch(url);
 
     if (!res.ok) {
@@ -18,4 +17,4 @@ const getResourse = async (url) => {
     return await res.json();
 };
 
-export {postData, getResourse};
+export {postData, getResource};
